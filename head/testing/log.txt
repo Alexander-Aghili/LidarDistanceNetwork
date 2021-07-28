@@ -1,8 +1,0 @@
-Log Start: 26/7/2021 14:57:55
-Server initialization sequence start 14:57:55
-Listening Socket Created 14:57:55
-Allowing multiple client connection to listening socket 14:57:55
-Successful bind to port 3001 14:57:55
-Listening to port 3001 14:57:55
-Client connected on socket 4. IP: 192.168.10.1 Port: 56592 14:57:59
-Lost connection to client on IP: 192.168.10.1 and Port: 56592 14:58:27
