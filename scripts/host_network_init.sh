@@ -27,7 +27,7 @@ sudo systemctl start dnsmasq
 #clear
 truncate -s 0 /etc/hostapd/hostapd.conf
 
-sudo echo -e '\ninterface=wlan0\ndriver=nl80211\nssid=AlexNet\nhw_mode=g\nchannel=6\nmacaddr_acl=0\nauth_algs=1\nignore_broadcast_ssid=0\nwpa=2\nwpa_passphrase=alexmarcus0720\nwpa_key_mgmt=WPA-PSK\nwpa_pairwise=TKIP\nrsn_pairwise=CCMP' >> /etc/hostapd/hostapd.conf
+sudo echo -e '\ninterface=wlan0\ndriver=nl80211\nssid=AlexNet\nhw_mode=g\nchannel=6\nmacaddr_acl=0\nauth_algs=1\nignore_broadcast_ssid=0\nwpa=2\nwpa_passphrase=********\nwpa_key_mgmt=WPA-PSK\nwpa_pairwise=TKIP\nrsn_pairwise=CCMP' >> /etc/hostapd/hostapd.conf
 
 sudo systemctl unmask hostapd
 sudo systemctl enable hostapd
