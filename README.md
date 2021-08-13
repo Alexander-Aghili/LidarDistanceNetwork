@@ -12,3 +12,5 @@ This drone with this node on it doesn't need to be connected to the network as i
 3. The last component are the client nodes. They recieve data from the head node and adjust their positioning based on that data. They also send relevant data such as IMU based altitude to the head node. 
 
 ![Node-Diagram](https://github.com/Alexander-Aghili/MultiDroneFormationNetwork/blob/main/diagrams/Drone%20Swarm%20Structure.svg)
+
+Once the base of the network is created, this repo will focus on developing algorithms with the APIs offered by this network.
