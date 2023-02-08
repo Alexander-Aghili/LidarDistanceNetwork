@@ -254,9 +254,6 @@ void readLidarStream( int serial_port ) {
  * byte 7: Temp_H high  bits
  * byte 8: Check sum
  * 
- * If your device uses something other than 8 bits make sure to change uint8_t to the proper bit per byte amount
- * Also adjust to the proper bytes.
- * 
  * This method is called once the input buffer is 0, so it start to read the bytes in a for loop
  * The first byte should be 0x59 and a check is performed at the beginning. 
  * Throws error if bytes[0] is not 0x59 because data will be incorrect.
